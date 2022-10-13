@@ -1,0 +1,286 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #efe8ef;
+  color: rgb(70, 2, 70);
+  overflow-x: hidden;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(36, 3, 36, 0.267),
+      rgba(19, 1, 19, 0.534)
+    ),
+    url(../img/bk\ 3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  color: #570757;
+  font-weight: 600;
+  border-bottom: 2px solid rgb(119, 16, 119);
+  font-size: 2rem;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  align-items: center;
+  /* align-self: center; */
+  height: 6.4rem;
+  max-width: 120rem;
+  margin: 0rem auto;
+  font-size: 1.6rem;
+}
+.menu ion-icon {
+  font-size: 4rem;
+  align-self: center;
+}
+
+.main-logo {
+  font-size: 3rem;
+}
+.hero-content {
+  max-width: 120rem;
+  margin: 4rem auto;
+}
+.hero-text {
+  padding-top: 8rem;
+  line-height: 5rem;
+}
+.hero-text p {
+  font-size: 4rem;
+  /* color: #efe8ef; */
+  color: rgb(37, 2, 37);
+}
+.hero-text span {
+  font-size: 7rem;
+  font-weight: 700;
+  /* color: #fff; */
+}
+.hero-text .hero-textmin {
+  font-size: 2rem;
+  /* color: #efe8ef; */
+}
+.hero-btns {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+.btn {
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 2px;
+  color: rgb(70, 2, 70);
+  font-weight: 600;
+  border: 1px solid rgb(37, 2, 37);
+}
+.btn:hover {
+  cursor: pointer;
+  background-image: linear-gradient(
+    to top,
+    #380e3b8f 51%,
+    rgba(37, 2, 37, 0.932) 100%
+  );
+  color: #efe8ef;
+}
+.btn:active {
+  transform: translateY(0.8rem);
+  transition: 0.8s;
+}
+
+.btn-shop {
+  background-color: rgb(37, 2, 37);
+  color: #efe8ef;
+}
+.btn-consult {
+  background-color: #fff;
+}
+/* //////////////description */
+.description {
+  max-width: 120rem;
+  margin: 4rem auto 12rem auto;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  color: rgb(82, 11, 82);
+}
+.descrip-heading {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  border-bottom: 1px solid #631563;
+  margin-bottom: 8rem;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.descrip-text p {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.descrip-btn {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+/* /////////////////// */
+.hair-container {
+  margin: 9rem auto;
+  height: 40rem;
+  background-image: linear-gradient(
+    rgba(43, 2, 43, 0.589),
+    #6d40708f,
+    rgba(63, 3, 63, 0.589)
+  );
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  /* color: #efe8ef; */
+}
+
+.hair-img {
+  width: 100%;
+  background-image: linear-gradient(rgba(63, 3, 63, 0.589), #6e5e6f8f),
+    url(../img/logan-weaver-lgnwvr-yRpe13BHdKw-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hair-text {
+  align-self: center;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+
+/* /////Product details */
+.product-details h2 {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 3rem;
+  /* margin-bottom: -0.05px; */
+}
+.product-details-text {
+  font-size: 1.6rem;
+  max-width: 120rem;
+  margin: 0rem auto;
+  text-align: center;
+}
+.customers-product {
+  height: 80rem;
+  max-width: 120rem;
+  margin: 4rem auto;
+  /* overflow: hidden; */
+}
+.customers-review {
+  background-color: #180518;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  color: #efe8ef;
+  font-size: 2rem;
+  padding: 0rem 3rem;
+  margin: 0rem auto;
+  line-height: 2.5rem;
+}
+.quote-container {
+  text-align: center;
+}
+.quote-container img {
+  width: 6rem;
+}
+blockquote {
+  width: 100rem;
+}
+.products {
+  height: 50%;
+  background-image: linear-gradient(
+      to right,
+      rgba(10, 5, 10, 0.747),
+      rgba(65, 6, 65, 0.507)
+    ),
+    url(../img/suad-kamardeen-J-D50rg44aw-unsplash.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3rem;
+  color: #efe8ef;
+}
+.products-text {
+  line-height: 3.7rem;
+}
+strong {
+  letter-spacing: 1px;
+}
+.btn-footer {
+  margin-top: 2rem;
+  display: inline-block;
+  padding: 1rem 2rem;
+  width: 15rem;
+  border: none;
+  font-size: 1.6rem;
+}
+.products-mintext {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+footer {
+  height: 20rem;
+  background-color: #180518;
+  color: #efe8ef;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.8rem;
+  align-items: center;
+}
+.contact-us h4 {
+  margin: 3rem 0rem;
+}
+footer ul {
+  list-style: none;
+  line-height: 2.7rem;
+  display: flex;
+  gap: 7rem;
+}
+footer li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+footer h4 {
+  margin-bottom: 1.5rem;
+}
+footer ion-icon {
+  font-size: 2.5rem;
+}
+footer ion-icon:hover,
+footer ion-icon:active {
+  transform: scale(1.3);
+}
+
+/* ???????? */
