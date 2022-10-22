@@ -1,0 +1,138 @@
+/* 1200px */
+
+@media screen and (max-width: 78em) {
+  .hero-content,
+  .description {
+    max-width: 100rem;
+  }
+}
+
+/* 1000px */
+@media screen and (max-width: 63em) {
+  html {
+    font-size: 62%;
+  }
+  .hero-content,
+  .description {
+    max-width: 90rem;
+  }
+  /* .customers-review {
+  } */
+  .container {
+    padding: 0 2rem;
+  }
+  blockquote {
+    width: 90rem;
+  }
+}
+
+/* 900px */
+@media screen and (max-width: 57em) {
+  html {
+    font-size: 62%;
+  }
+  .hero-content {
+    max-width: 80rem;
+    padding: 0 2rem;
+    /* height: 100vh; */
+    margin-top: 5rem;
+  }
+  .description {
+    /* padding: 4rem; */
+    margin: 4rem auto 10rem auto;
+    padding: 0 2rem;
+  }
+  .descrip-heading {
+    height: 4rem;
+    margin-bottom: 3rem;
+    padding: 0 2rem;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .hair-container {
+    margin: 5rem 0 0 0;
+  }
+  .product-details h2 {
+    font-size: 3rem;
+  }
+  .customers-product {
+    padding: 0 2rem;
+    height: 80rem;
+    max-width: 120rem;
+    margin: 4rem auto;
+  }
+  .product-details-text {
+    padding: 0 2rem;
+  }
+  blockquote {
+    width: 70rem;
+    padding: 0 1rem;
+    text-align: justify;
+  }
+}
+
+/* 760px//// */
+@media screen and (max-width: 48em) {
+  html {
+    font-size: 60%;
+  }
+  .hero-content {
+    margin-top: 4rem;
+  }
+  .hero-text p {
+    font-size: 3rem;
+    color: rgb(37, 2, 37);
+  }
+  .hero-text span {
+    font-size: 6rem;
+    font-weight: 700;
+  }
+  .descrip-text p {
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+  }
+  .hair-container {
+    height: 32rem;
+    gap: 2rem;
+  }
+  .hair-text {
+    font-size: 1.6rem;
+    padding: 0 1rem;
+  }
+  blockquote {
+    padding: 0 3rem;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+  .customers-review p {
+    font-size: 1.6rem;
+  }
+}
+
+/* 690px */
+
+@media screen and (max-width: 44em) {
+  html {
+    font-size: 58%;
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .hero {
+    /* background-image: linear-gradient(
+        to right bottom,
+        rgba(36, 3, 36, 0.356),
+        rgba(19, 1, 19, 0.534)
+      ),
+      url(.); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+} ;
