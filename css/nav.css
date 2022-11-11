@@ -16,6 +16,14 @@ nav {
   transition: all 0.5s ease-in-out;
 }
 
+.logo-container {
+  width: 12rem;
+}
+
+.logo {
+  width: 100%;
+}
+
 .menu ion-icon {
   position: absolute;
   top: 10%;
