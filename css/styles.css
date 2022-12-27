@@ -159,7 +159,7 @@ h2 {
 .hair-img {
   width: 100%;
   background-image: linear-gradient(rgba(63, 3, 63, 0.589), #6e5e6f8f),
-    url(../img/logan-weaver-lgnwvr-yRpe13BHdKw-unsplash.jpg);
+    url(../img/two.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -221,7 +221,7 @@ blockquote {
       rgba(10, 5, 10, 0.747),
       rgba(65, 6, 65, 0.507)
     ),
-    url(../img/suad-kamardeen-J-D50rg44aw-unsplash.jpg);
+    url(../img/three.jpeg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
